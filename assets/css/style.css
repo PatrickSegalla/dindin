@@ -48,6 +48,20 @@
 }
 
 .btn {
+    border: 1px solid #FF4081;
+    border-radius: 47px;
+    color: #FF4081;
+    padding: 7px 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 8vw;
+    margin-top: 100px;
+}
+
+.btn-footer {
     border: 1px solid #FDFDFD;
     border-radius: 47px;
     color: #FDFDFD;
@@ -145,7 +159,133 @@
     margin-top: 4vh;
 }
 
+.h2-grid {
+    background-color: #F7F7F7;
+    color: #009688;
+    padding: 11vh 0 2vh 7.5vw;
+}
+
 .section3 {
     background-color: #F7F7F7;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-bottom: 20vh;
+}
+
+.section3 div {
     display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    padding: 3vw;
+    margin-left: 4vw;
+}
+
+.margin-grid-text {
+    margin-left: 2vw;
+}
+
+.h2-grid2 {
+    background-color: #E5E5E5;
+    color: #009688;
+    padding: 9vh 0 7vh 7.5vw;
+}
+
+.section4 {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section4 div {
+    width: 20vw;
+}
+
+.section4 img {
+    width: 20vw;
+}
+
+.h4-section4 {
+    color:#009688;
+    font-size: 130%;
+    margin-top: 1vh;
+}
+
+.btn2 {
+    border: 1px solid #FF4081;
+    border-radius: 47px;
+    color: #FF4081;
+    padding: 7px 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+}
+
+.div-btn2 {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10vh 0;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form label {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FF4081;
+    align-self: flex-start;
+    margin: 0px 0px 4vw 0px;
+}
+
+.form input {
+    font-size: 16px;
+    font-weight: 400;
+    color: #58555D;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    width: 30vw;
+    padding: 8px 30px 8px 30px;
+    margin: 0px 0px 20px 0px;
+}
+
+.form form textarea {
+    font-size: 16px;
+    font-weight: 400;
+    color: #58555D;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    width: 30vw;
+    padding: 8px 30px 100px 30px;
+    margin: 0px 0px 20px 0px;
+    resize: none;
+}
+
+#submit {
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #FF4081;
+    border-radius: 30px;
+    width: 10vw;
+    align-self: flex-start;
+    cursor: pointer;
 }
