@@ -403,3 +403,147 @@
 .section-grid-cursos p {
     margin-bottom: 5vh;
 }
+
+.section-curso {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10vh;
+}
+
+.section-curso h1 {
+    color: #FF4081;
+    font-size: 300%;
+    width: 30vw;
+    margin: 10vh 0 4vh 14vw  ;
+}
+
+.section-curso p {
+    width: 30vw;
+    margin-left: 14vw;
+}
+
+.section-curso img {
+    width: 25vw;
+    margin: 10vh 0 0 9vw;
+}
+
+.section-article-curso {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 10vh 0;
+    width: 83vw;
+}
+
+.section-article-curso h2 {
+    color: #FF4081;
+    margin-bottom: 5vh;
+}
+
+.section-article-curso p {
+    width: 30vw;
+}
+
+.margin-article-curso {
+    margin-left: 8vw;
+}
+
+.section-curso2 {
+    background-color: #F6F6F6;
+}
+
+.section-post {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 74vw;
+    margin-left: 14vw;
+}
+
+.section-post img {
+    width: 74vw;
+    margin-top: 10vh;
+}
+
+.titulo-post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-post h1 {
+    color: #FF4081;
+    font-size: 270%;
+    margin: 10vh 0 1vh 0;
+}
+
+.text1 {
+    margin: 10vh 0;
+}
+
+.text2 {
+    margin: 10vh 0 30vh ;
+}
+
+.section-post h2 {
+    color: #009688;
+}
+
+.nossos-cursos {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-around;
+    padding: 10vh;
+}
+
+.nossos-cursos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nossos-cursos img {
+    height: 32vh;
+}
+
+.nossos-cursos h3 {
+    display: flex;
+    color: #FF4081;
+    justify-content: center;
+    margin-top: 4vh;
+    font-size: 3vh;
+}
+
+.nossos-cursos p {
+    font-size: 1.8vh;
+    width: 17vw;
+    display: flex;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.nossos-cursos a {
+    background-color: #FF4081;
+    border-radius: 47px;
+    color: #FDFDFD;
+    padding: 7px 27px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 4vh;
+}
+
+.titulo-nossos-cursos {
+    color: #FF4081;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5E5;
+    font-size: 170%;
+    padding-top: 10vh;
+}
