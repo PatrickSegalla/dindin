@@ -561,6 +561,60 @@
     .section4 p {
         font-size:80%;
     }
+
+    .form img {
+        width: 45%;
+        height: 45%;
+    }
+
+    #submit {
+        font-size: 80%;
+        padding: 5px;
+    }
+
+    .section-blog {
+        margin-top: 10vh;
+    }
+
+    .section-blog h1 {
+        font-size: 220%;
+    }
+
+    .section-blog img {
+        width: 30%;
+        height: 30%;
+        margin-left: 2vw;
+    }
+
+    .section-cursos h2 {
+        font-size: 140%;
+    }
+
+    .section-cursos p {
+        font-size: 80%;
+    }
+
+    .btn-cursos {
+        margin-bottom: 7vh;
+    }
+
+    .titulo-post h1 {
+        font-size: 220%;
+    }
+
+    .section-curso h1 {
+        font-size: 200%;
+    }
+    
+    .section-curso p {
+        font-size: 70%;
+    }
+
+    iframe {
+        width: 100%;
+        height: 100%;
+        margin-top: 15vh;
+    }
 }
 
 @media screen and (max-width: 390px) {
@@ -644,6 +698,7 @@
 
     .section3 img {
         width: 40%;
+        height: 40%;
         margin: 4vh 0 2vh 0 ;
     }
 
@@ -689,4 +744,108 @@
     .link-footer {
         margin: 2vh 0 2vh 0 ;
     }
+
+    .section-cursos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    .div-cursos {
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .section-cursos img {
+        width: 60%;
+        height: 60%;
+    }
+
+    .btn-cursos {
+        margin: 0 0 5vh 0;
+    }
+
+    .section-blog h1 {
+        font-size: 110%;
+        margin: 0 0 2vh 7vw;
+
+    }
+
+    .section-blog p {
+        font-size: 70%;
+        margin: 0 0 0 7vw;
+    }
+
+    .section-blog {
+        margin: 4vh 0;
+    }
+
+    .section-blog img {
+        width: 35%;
+        height: 35%;
+        margin: 0 0 0 14vw;
+    }
+
+    .section-grid-cursos div {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .form label {
+        font-size: 190%;
+    }
+
+    .form img {
+        width: 0px;
+    }
+
+    .form form {
+        justify-content: center;
+        align-items: center;
+        margin-left: 15vw;
+    }
+
+    #submit {
+        font-size: 50%;
+        padding: 5px;
+    }
+
+    .nossos-cursos img {
+        width: 60%;
+        height: 60%;
+    }
+
+    .nossos-cursos h3 {
+        font-size: 75%;
+    }
+
+    .titulo-nossos-cursos {
+        font-size: 130%;
+    }
+
+    .nossos-cursos div {
+        text-align: center;
+    }
+
+    .nossos-cursos p {
+        font-size: 80%;
+    }
+
+    .nossos-cursos a {
+        font-size: 80%;
+    }
+
+    .titulo-post h1 {
+        font-size: 121%;
+    }
+
+    .text2 {
+        margin-bottom: 10vh;
+    }
+
+
 }
