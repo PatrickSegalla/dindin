@@ -847,5 +847,37 @@
         margin-bottom: 10vh;
     }
 
+    .section-curso {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5vh;
+    }
+
+    .section-curso h1 {
+        margin: 5vh 0 2vh -6vw;
+        font-size: 180%;
+    }
+
+    .section-curso p {
+        margin: 0;
+
+    }
+
+    .section-curso img {
+        width: 0px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .section-article-curso p {
+        font-size: 80%;
+    }
+
+    iframe {
+        width: 80%;
+        height: 80%;
+    }
+
 
 }
